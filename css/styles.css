@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#bgimg {
+  background-image: url(../images/day.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#msg {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+#time {
+  font-size: 600%;
+  -webkit-text-stroke: 2px black;
+}
+#date {
+  font-size: 200%;
+  -webkit-text-stroke: 2px black;
+  padding-left: 25%;
+}
