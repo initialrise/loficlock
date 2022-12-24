@@ -22,4 +22,4 @@ function setRandomBg() {
   bgelement.style.backgroundImage = `url(${randurl})`;
 }
 setInterval(upDate, 1000);
-setInterval(setRandomBg, 3000);
+//setInterval(setRandomBg, 3000);
